@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+	h1 {text-align:center;}
+	body {text-align:center;}
+	
+</style>
+<script type="text/javascript" src="mustfill.js"></script>
+
+</head>
+<body bgcolor='powderblue'>
+   	<h1><font color="blue">HUMAN RESOURCE MODULE </font></h1>
+    <form action="Validate_Login.jsp" name="index" onsubmit="return(mustfill());"  >
+	     <fieldset>
+	     <legend><font color='red'>LOGIN FORM</font></legend> 	
+    		<font color="blue">USERNAME	<input type="text" name="user" /><br/><br/>
+		  		PASSWORD	<input type="password" name="pass" /></font><br/><br/>
+             		<label>SIGN IN WITH ROLE AS</label>
+          			   <select name = "myList">
+            		   <option value = "employee_hrm" >EMPLOYEE</option>
+               			<option value = "hr_hrm"   >HR MANAGER</option>
+             			  <option value = "admin_hrm"  >ADMIN</option>
+            				 </select><br/><br/>
+          						<input type="submit"  value="LOG IN" />
+     </fieldset>
+    </form>
+	<fieldset>
+	  <h1><a href="about_us.jsp">ABOUT THIS COMPANY </a>  </h1> 
+	</fieldset>
+  </body>
+</html>
